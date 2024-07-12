@@ -17,7 +17,7 @@ const ManageProducts = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3300/products")
+      .get("http://localhost:3000/products")
       .then((response) => {
         setProducts(response.data);
         setDale((p) => !p);
@@ -29,7 +29,7 @@ const ManageProducts = () => {
 
   const deleteProduct = (id) => {
     axios
-      .delete(`http://localhost:3300/products/${id}`)
+      .delete(`http://localhost:3000/products/${id}`)
       .then(() => {
         confirm("Malumot uchirilsinmi");
         setProducts(products.filter((product) => product.id !== id));
@@ -42,7 +42,7 @@ const ManageProducts = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3300/products")
+      .get("http://localhost:3000/products")
       .then((res) => {
         setAlbom(res?.data);
         setDale((p) => !p);
@@ -55,7 +55,7 @@ const ManageProducts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:3300/products/${edit.id}`, edit)
+      .put(`http://localhost:3000/products/${edit.id}`, edit)
       .then(() => {
         setProducts(products.map((product) => (product.id === edit.id ? edit : product)));
         setEdit(null);
