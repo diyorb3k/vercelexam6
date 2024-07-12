@@ -16,6 +16,7 @@ const ManageProducts = () => {
   const [query, setQuery] = useState("");
   const [products, setProducts] = useState([]);
   const [dale, setDale] = useState(true);
+  const[loading,setLoading]=useState(true)
 
   useEffect(() => {
     axios
@@ -23,9 +24,13 @@ const ManageProducts = () => {
       .then((response) => {
         setProducts(response.data);
         setDale((p) => !p);
+
+        setLoading(false)
       })
       .catch((error) => {
         console.log(error);
+        setLoading(false)
+
       });
   }, [dale]);
 
@@ -69,7 +74,10 @@ const ManageProducts = () => {
         toast.error("Failed to update the product.");
       });
   };
+if (loading){
+  return <div className="loader"></div>
 
+}
   const card = albom
     ?.filter((user) => user.name.toLowerCase().includes(query.toLowerCase()))
     .map((el) => {

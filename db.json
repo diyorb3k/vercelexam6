@@ -62,24 +62,6 @@
       "price": 7.99,
       "priceInSale": 5.99,
       "description": "Aloe Vera gel for soothing and moisturizing skin."
-    },
-    {
-      "id": "2837465910",
-      "name": "Multivitamin Tablets",
-      "code": "MT7007",
-      "brand": "VitaLife",
-      "price": 12.99,
-      "priceInSale": 9.99,
-      "description": "Multivitamin tablets to support overall health and wellness."
-    },
-    {
-      "id": "4657382910",
-      "name": "Green Tea Extract",
-      "code": "GT8008",
-      "brand": "HerbalZen",
-      "price": 14.99,
-      "priceInSale": 11.99,
-      "description": "Green tea extract capsules for metabolism and weight management."
     }
   ]
 }
