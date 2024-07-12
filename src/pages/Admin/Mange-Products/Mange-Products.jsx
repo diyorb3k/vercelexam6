@@ -5,6 +5,8 @@ import rasim12 from "././../../../assets/Редактировать.svg";
 import axios from "axios"; 
 import "../Mange-Products/Admini.scss";
 import "../../Admin/Admin.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useEffect, useState } from "react";
 
 const ManageProducts = () => {
@@ -60,9 +62,11 @@ const ManageProducts = () => {
         setProducts(products.map((product) => (product.id === edit.id ? edit : product)));
         setEdit(null);
         setDale((p) => !p);
+        toast.success("Malumotlar uzgartirildi");
       })
       .catch((error) => {
         console.log(error);
+        toast.error("Failed to update the product.");
       });
   };
 
@@ -219,6 +223,7 @@ const ManageProducts = () => {
         </Link>
         <p>© Anymarket 2024</p>
       </div>
+      <ToastContainer />
     </>
   );
 };
