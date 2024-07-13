@@ -3,16 +3,18 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import "../Mange-Products/Admini.scss";
 
+
+const intialState ={
+  name: '',
+  code: '',
+  brand: '',
+  description: '',
+  price: '',
+  priceInSale: ''
+}
 const MangeCategory = () => {
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({
-    name: '',
-    code: '',
-    brand: '',
-    description: '',
-    price: '',
-    priceInSale: ''
-  });
+  const [formData, setFormData] = useState(intialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,10 +29,13 @@ const MangeCategory = () => {
     try {
       const response = await axios.post('http://localhost:3000/products', formData);
       console.log('Product added:', response.data);
+      setFormData(intialState)
+
     } catch (error) {
       console.error('Error adding product:', error);
     }
   };
+  <marquee behavior="12" direction=""></marquee>
 
   return (
     <div>

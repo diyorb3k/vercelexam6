@@ -49,7 +49,7 @@
       "id": "f827",
       "name": "Sssd",
       "brand": "ssasdss",
-      "manufacturerArticle": "",
+      "manufacturerArticle": "vbngfbfg ",
       "description": "saDsd",
       "price": "aasdasda",
       "discountedPrice": "adasadsdd",
@@ -79,25 +79,172 @@
       "priceInSale": "damijn"
     },
     {
-      "id": "98dd",
-      "name": "salomDSASF",
-      "brand": "ASASDFS",
-      "manufacturerArticle": "ZXVCVX",
-      "description": "XCVCD,NVDF",
-      "price": "CV,XCJBLDF",
-      "discountedPrice": "CVM,DFN,BG",
-      "priceInSale": "damijn",
-      "code": "damijn"
+      "id": "917d",
+      "name": "NAZIVANIA",
+      "code": "ARTIKUL",
+      "brand": "BREND",
+      "description": "gdfgd",
+      "price": "CENA",
+      "priceInSale": "CENA"
     },
     {
-      "id": "5ba6",
-      "name": "salomDSASF",
-      "brand": "ASASDFS",
-      "manufacturerArticle": "ZXVCVX",
-      "description": "XCVCD,NVDF",
-      "price": "CV,XCJBLDF",
-      "discountedPrice": "CVM,DFN,BG",
-      "priceInSale": "damijn"
+      "id": "d0af",
+      "name": "NAZIVANIA",
+      "code": "ARTIKUL",
+      "brand": "BREND",
+      "description": "dfg dfgd",
+      "price": "CENA",
+      "priceInSale": "CENA"
+    },
+    {
+      "id": "05bd",
+      "name": "salom",
+      "code": "salom",
+      "brand": "salom",
+      "description": "dfgdfgdf ",
+      "price": "salom ",
+      "priceInSale": "salom"
+    },
+    {
+      "id": "a08b",
+      "name": "ADQAFQSASF",
+      "code": "SDG DFGD ",
+      "brand": "DS DGDSF GSF",
+      "description": "bdggd",
+      "price": "SDD FGFD",
+      "priceInSale": "F DFG D "
+    },
+    {
+      "id": "a672",
+      "name": ",jhzcksjv",
+      "code": "zv",
+      "brand": "vd",
+      "description": "f dfbhg",
+      "price": "dfw",
+      "priceInSale": "dfsdfs"
+    },
+    {
+      "id": "8ac9"
+    },
+    {
+      "id": "d43a",
+      "name": "caczxcxzzxv",
+      "code": "zcvds,mfndvs",
+      "brand": " vdsb,fvfd",
+      "description": "b cvnfgn",
+      "price": "213134",
+      "priceInSale": "1243"
+    },
+    {
+      "id": "ed96"
+    },
+    {
+      "id": "43ce",
+      "name": "Cc",
+      "code": "zxvsd",
+      "brand": "casdsad",
+      "description": "fvdfgdoh",
+      "price": "asdadfs",
+      "priceInSale": "sdassa"
+    },
+    {
+      "id": "ad3d",
+      "name": "Cc",
+      "code": "zxvsd",
+      "brand": "casdsad",
+      "description": "dvsbxsf",
+      "price": "asdadfs",
+      "priceInSale": "sdassa"
+    },
+    {
+      "id": "face",
+      "name": "Cc",
+      "code": "zxvsd",
+      "brand": "casdsad",
+      "description": "sdfsgfdg",
+      "price": "asdadfs",
+      "priceInSale": "sdassa"
+    },
+    {
+      "id": "973e",
+      "name": "Cc",
+      "code": "zxvsd",
+      "brand": "casdsad",
+      "description": "dfdwfs",
+      "price": "asdadfs",
+      "priceInSale": "sdassa"
+    },
+    {
+      "id": "34a8",
+      "name": "salom",
+      "code": "sakoj",
+      "brand": "kadcdskv",
+      "description": "fs df",
+      "price": "1214",
+      "priceInSale": "12421323"
+    },
+    {
+      "id": "be10",
+      "name": "salom",
+      "code": "sakoj",
+      "brand": "kadcdskv",
+      "description": "fsdg f",
+      "price": "1214",
+      "priceInSale": "12421323"
+    },
+    {
+      "id": "9449",
+      "name": "salom",
+      "code": "sakoj",
+      "brand": "kadcdskv",
+      "description": "zcxvxzcv",
+      "price": "1214",
+      "priceInSale": "12421323"
+    },
+    {
+      "id": "b9ad",
+      "name": "ываупуауцк",
+      "code": "фы",
+      "brand": "ывацап",
+      "description": "",
+      "price": "мавмваы",
+      "priceInSale": "вап вр к"
+    },
+    {
+      "id": "e600",
+      "name": "2wdef",
+      "code": "wedf",
+      "brand": "qswdefr",
+      "description": "",
+      "price": "sd",
+      "priceInSale": "wsde"
+    },
+    {
+      "id": "00d9",
+      "name": "2wdef",
+      "code": "wedf",
+      "brand": "qswdefr",
+      "description": "",
+      "price": "sd",
+      "priceInSale": "wsde"
+    },
+    {
+      "id": "bb61",
+      "name": "2wdef",
+      "code": "wedf",
+      "brand": "qswdefr",
+      "description": "",
+      "price": "sd",
+      "priceInSale": "wsde"
+    },
+    {
+      "id": "c214",
+      "name": "wsdefrg",
+      "code": "w2edfr",
+      "brand": "swdefrv",
+      "description": "",
+      "price": "swdef",
+      "priceInSale": "wdefrv"
     }
   ]
 }

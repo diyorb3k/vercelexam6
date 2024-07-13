@@ -78,9 +78,8 @@ if (loading){
   return <div className="loader"></div>
 
 }
-  const card = albom
-    ?.filter((user) => user.name.toLowerCase().includes(query.toLowerCase()))
-    .map((el) => {
+  const card = albom?.filter((user) => user.name?.toLowerCase().includes(query.toLowerCase()))
+    ?.map((el) => {
       return (
         <div className="form card" key={el.id}>
           <table className="styled-table">
@@ -202,7 +201,7 @@ if (loading){
             <input
               placeholder="Поиск"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) =>  setQuery(e.target.value)}
               type="search"
               className="input"
             />
