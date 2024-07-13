@@ -1,26 +1,8 @@
 {
   "products": [
     {
-      "id": "4",
-      "name": "Vitamin C Serum",
-      "code": "VS3003fsdfdsg",
-      "brand": "SkinGlow",
-      "price": 24.99,
-      "priceInSale": "89",
-      "description": "A serum with high concentration of Vitamin C for radiant skin."
-    },
-    {
-      "id": "4951823467",
-      "name": "UltraSoft Toothbrush",
-      "code": "TB1001132423423",
-      "brand": "OralCare",
-      "price": 3.99,
-      "priceInSale": 2.99,
-      "description": "A toothbrush with ultra-soft bristles for sensitive gums."
-    },
-    {
       "id": "1029384756",
-      "name": "Herbal Shampoo",
+      "name": "VitaminD",
       "code": "HS2002",
       "brand": "NatureEssence",
       "price": 8.99,
@@ -62,6 +44,60 @@
       "price": 7.99,
       "priceInSale": 5.99,
       "description": "Aloe Vera gel for soothing and moisturizing skin."
+    },
+    {
+      "id": "f827",
+      "name": "Sssd",
+      "brand": "ssasdss",
+      "manufacturerArticle": "",
+      "description": "saDsd",
+      "price": "aasdasda",
+      "discountedPrice": "adasadsdd",
+      "code": "zgd f",
+      "priceInSale": "gdsgfd"
+    },
+    {
+      "id": "6620",
+      "name": "salomDSASF",
+      "brand": "ASASDFS",
+      "manufacturerArticle": "ZXVCVX",
+      "description": "XCVCD,NVDF",
+      "price": "CV,XCJBLDF",
+      "discountedPrice": "CVM,DFN,BG",
+      "code": "damijn",
+      "priceInSale": "damijn"
+    },
+    {
+      "id": "e64e",
+      "name": "salomDSASF",
+      "brand": "ASASDFS",
+      "manufacturerArticle": "ZXVCVX",
+      "description": "XCVCD,NVDF",
+      "price": "CV,XCJBLDF",
+      "discountedPrice": "CVM,DFN,BG",
+      "code": "damijn",
+      "priceInSale": "damijn"
+    },
+    {
+      "id": "98dd",
+      "name": "salomDSASF",
+      "brand": "ASASDFS",
+      "manufacturerArticle": "ZXVCVX",
+      "description": "XCVCD,NVDF",
+      "price": "CV,XCJBLDF",
+      "discountedPrice": "CVM,DFN,BG",
+      "priceInSale": "damijn",
+      "code": "damijn"
+    },
+    {
+      "id": "5ba6",
+      "name": "salomDSASF",
+      "brand": "ASASDFS",
+      "manufacturerArticle": "ZXVCVX",
+      "description": "XCVCD,NVDF",
+      "price": "CV,XCJBLDF",
+      "discountedPrice": "CVM,DFN,BG",
+      "priceInSale": "damijn"
     }
   ]
 }

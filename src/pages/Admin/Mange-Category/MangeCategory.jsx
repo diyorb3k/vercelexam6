@@ -1,8 +1,37 @@
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import axios from 'axios';
 import "../Mange-Products/Admini.scss";
 
 const MangeCategory = () => {
   const navigate = useNavigate();
+  const [formData, setFormData] = useState({
+    name: '',
+    code: '',
+    brand: '',
+    description: '',
+    price: '',
+    priceInSale: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:3000/products', formData);
+      console.log('Product added:', response.data);
+    } catch (error) {
+      console.error('Error adding product:', error);
+    }
+  };
+
   return (
     <div>
       <div className="pruductpage">
@@ -24,47 +53,81 @@ const MangeCategory = () => {
           <div className="inputitem">
             <div className="etiminput">
               <p>Название *</p>
-              <form action="">
-                <input className="inputetim1" type="text" />
+              <form onSubmit={handleSubmit}>
+                <input
+                  className="inputetim1"
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
               </form>
             </div>
             <div className="inputt2">
-              <form action="">
-                <div>
-                  <p>Бренд *</p>
-                  <input className="input11" type="text" />
-                </div>
+              <form onSubmit={handleSubmit}>
+              
                 <div>
                   <p>Артикул производителя *</p>
-                  <input className="input2" type="text" />
+                  <input
+                    className="input2"
+                    type="text"
+                    name="code"
+                    value={formData.code}
+                    onChange={handleChange}
+                  />
                 </div>
+
+                <div>
+                  <p>Бренд *</p>
+                  <input
+                    className="input11"
+                    type="text"
+                    name="brand"
+                    value={formData.brand}
+                    onChange={handleChange}
+                  />
+                </div>
+
+
               </form>
             </div>
             <p className="lorem">Описание *</p>
           </div>
-         <div className="texaria">
-          <textarea name="text" id="w"></textarea>
-         </div>
-         <div className="btnetim1">
-          <form className="foriminput" action="">
-          <div>
-          <p>Цена</p>
-          <input type="text" />
+          <div className="texaria">
+            <textarea
+              name="description"
+             
+            ></textarea>
           </div>
-        <div>
-        <p>Цена со скидкой</p>
-        <input type="text" />
+          <div className="btnetim1">
+            <form className="foriminput" onSubmit={handleSubmit}>
+              <div>
+                <p>Цена</p>
+                <input
+                  type="text"
+                  name="price"
+                  value={formData.price}
+                  onChange={handleChange}
+                />
+              </div>
+              <div>
+                <p>Цена со скидкой</p>
+                <input
+                  type="text"
+                  name="priceInSale"
+                  value={formData.priceInSale}
+                  onChange={handleChange}
+                />
+              </div>
+            </form>
+          </div>
         </div>
-          </form>
-
-         </div>
+        <div className="foter_add">
+          <div className="saxranit">
+            <button className="save" onClick={handleSubmit}>Сохранить</button>
+            <button className="otmin" onClick={() => navigate(-1)}>Отмена</button>
+          </div>
         </div>
-       <div className="foter_add">
-<div className="saxranit">
-  <button className="save">Сохранить</button>
-  <button className="otmin">Отмена</button>
-</div>
-       </div>
       </div>
     </div>
   );
